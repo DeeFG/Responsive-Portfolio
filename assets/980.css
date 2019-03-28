@@ -1,112 +1,129 @@
 @media only screen and (max-width: 980px) {
-    body {
-        min-height: 100%;
-        padding:0; 
-        margin:0; 
-        position:relative;
-        background-attachment: fixed;
-        background-position: center; 
-        font-family: Arial', 'Helvetica Neue', Helvetica , sans-serif;
-    }
-            
-    .top {
-    
-        height:87px;
-        background-color:#ffffff;
-        border-bottom: solid 3px #cccccc ;
-        margin-bottom: 50px;
-        font-family: 'Georgia', Times, Times New Roman, serif;
-    }
-    .innertop {
-            width: 980px;
-            margin: 0 auto;
-            
-        }
-    .name {
-        background:#4aaaa5;
-        color: white;
-        font:#ffffff;
-        float:left;
-        padding: 0px 10px 8px 10px;
-        margin-left: 20px;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-    }
-    .nav{
-        float:right;
-        padding-top:42px;
-        padding-right: 20px;  
-    
-    
-        }
-    
-    button {
-        background-color: #ffffff;
-        color:#4aaaa5;
-        font-weight: bold;
-        opacity: .8;
-        border-style: solid 6px #4aaaa5; 
-        width: 100px;
-        height:30px;
-        font: 30px;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        }
-    
-    
-    .imgport {
-        margin: 0 auto;
-        box-align: center;
-        padding: 0 auto ; 
-        margin: 0 auto;
-    }
-    
-    .container{
-        background-color:#ffFFFF;
-        text-align: center;
-        border-radius: 5px ;
-        border: solid 2px #dddddd;
-        width: 600px;
-        height: 100%;
-        margin-left:20px;
-        margin-right:10px;
-        padding: 0 auto;
-        margin-bottom: 50px;
-        overflow:auto;
-  
-    }
-    
-    .containercontact{
-        background-color:#ffFFFF;
-        text-align: center;
-        border-radius: 5px ;
-        border: solid 2px #dddddd;
-        width: 550px;
-        height: 100%;
-        margin-left:px;
-        padding: 0 auto;
-        margin-bottom: 50px;
-        overflow:auto;
-        position:static;
-    }
-    
-    
-    .input{
-        font-size:14pt;
-    }
-    .message {
+body {
+    min-height: 100%;
+    padding:0; 
+    margin:0; 
+    position:relative;
+    background-attachment: fixed;
+    background-position: center; 
+    font-family: Arial', 'Helvetica Neue', Helvetica , sans-serif;
+}
         
-        font-size:14pt;
+.top {
+
+    height:87px;
+    background-color:#ffffff;
+    border-bottom: solid 3px #cccccc ;
+    margin-bottom: 50px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.innertop {
+        width: 980px;
+        margin: 0 auto;
+        
     }
-    
-    
-    form { 
-        color:#777777;
-        text-align: center;
-        font-weight: normal;
-        font-size: 24px;
-        margin-bottom: 30px ;
-        font-family: Arial', 'Helvetica Neue', Helvetica , sans-serif;
+.name {
+    background:#4aaaa5;
+    color: white;
+    font:#ffffff;
+    float:left;
+    padding: 0px 10px 8px 10px;
+    margin-left: 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.nav{
+    float:right;
+    padding-top:42px;
+    padding-right: 20px;  
+
+
     }
-    
+
+button {
+    background-color: #ffffff;
+    color:#4aaaa5;
+    font-weight: bold;
+    opacity: .8;
+    border-style: solid 6px #4aaaa5; 
+    width: 100px;
+    height:30px;
+    font: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     }
+
+.imgport {
+    margin: 0 auto;
+    box-align: center;
+    padding: 0 auto ; 
+    margin: 0 auto;
+}
+
+
+.p {
+    box-align:right;
+    margin: 0px 10px 0px 20px;
+    font-family:Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+.container{
+    background-color:#ffFFFF;
+    text-align: center;
+    border-radius: 5px ;
+    border: solid 2px #dddddd;
+    width: 600px;
+    height: 100%;
+    margin-left:20px;
+    margin-right:10px;
+    padding: 0 auto;
+    margin-bottom: 50px;
+    overflow:auto;
+
+}
+
+.containercontact{
+    background-color:#ffFFFF;
+    text-align: center;
+    border-radius: 5px ;
+    border: solid 2px #dddddd;
+    width: 550px;
+    height: 100%;
+    margin-left:px;
+    padding: 0 auto;
+    margin-bottom: 50px;
+    overflow:auto;
+    position:static;
+}
+#entersub {
+    color: #fffff; 
+    background:#4aaaa5; 
+    opacity: .8; 
+    border-radius:3px; 
+    height:30px; 
+    width: 60px; 
+}
+
+#info{
+    width: 550px ;
+    height: 20px;
+    font-size:12pt;
+
+}
+#message{
+    width: 550px ;
+    height:100px;
+    font-size:12pt;
+
+}
+form { 
+    color:#777777;
+    text-align: left;
+    font-weight: normal;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 30px ;
+    font-family: Arial', 'Helvetica Neue', Helvetica , sans-serif;
+}
+
+}
