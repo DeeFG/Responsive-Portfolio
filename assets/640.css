@@ -29,7 +29,7 @@
     background:#4aaaa5;
     color: white;
     font:#ffffff;
-    padding: 0px 0px 0px 100px;
+    padding: 0px 144px 0px 143px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     display:block;
@@ -70,8 +70,8 @@
         border: solid 2px #dddddd;
         width: 600px;
         height: 100%;
-        margin-left:0px;
-        margin-right:0px;
+        margin-left:20px;
+        margin-right:20px;
         padding: 0 auto;
         margin-bottom: 50px;
         overflow:auto;
