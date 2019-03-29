@@ -214,17 +214,13 @@ footer {
     font-size:30px;
 }
 
+.animation { 
+    -webkit-animation: fadein 10s;
 
+}
 
-
-
-
-
-
-
-
-
-
-
- /* --------------------------------small screen------------------------------- */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
